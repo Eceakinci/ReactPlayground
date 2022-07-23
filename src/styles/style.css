@@ -1,0 +1,102 @@
+html,
+body {
+    height:auto!important;
+    min-height:100vh;
+    background: #23252C;
+}
+
+#root {
+    margin: -8px;
+}
+
+/* bigger container */
+.container {
+    width: 350px;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    padding: 10px 0 10px 0;
+    height:auto!important;
+    min-height:100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ImageCard */
+
+
+.imageContainer > img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+/* BodyCard */
+.bodyContainer {
+    display: flex;
+    color: white;
+    margin-top: -5px;
+    flex-flow: column;
+    align-items: center;
+    background-color: #1A1B21;
+}
+
+.bodyContainer > h2 {
+    margin-bottom: 0;
+}
+
+.bodyContainer > p {
+    color: #F3BF99;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    border: 0;
+    width: 115px;
+    height: 35px;
+    color: black;
+    cursor: pointer;
+    background: white;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.email > span {
+    margin-left: 5px;
+}
+
+.linkedin {
+    border: 0;
+    width: 115px;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    background: #5093E2;
+}
+
+.linkedin > span {
+    margin-left: 5px;
+}
+
+.about {
+    width: 290px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #161619;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer > a > .icon {
+    margin: 10px;
+    font-size: 40px;
+    color: #918E9B;
+}
